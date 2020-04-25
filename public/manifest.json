@@ -1,5 +1,5 @@
 {
-  "short_name": "KEYWORDTOOLS",
+  "short_name": "SEOSEMAPI",
   "name": "SERP Keyword Tools",
   "icons": [
     {
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#056D8B",
   "background_color": "#ffffff"
 }

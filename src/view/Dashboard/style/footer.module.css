@@ -1,0 +1,79 @@
+
+/* BOTTOM */
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    height  : 70%;
+    width   : 100%;
+    font-size: 90%;
+}
+
+
+.bottomLeft {
+    width:40%;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.bottomRight  {
+    width:35%;
+}
+
+.bottomLeft .botLeftLogo {
+    display: inline-flex;
+    height: 20%;
+    align-content: flex-end;
+}
+
+.bottomLeft .botLeftLogo p {
+    margin: 0 3%;
+}
+
+.bottomLeft .realTime {
+    display: inline-block;
+}
+
+.bottomRight .compInfoMid {
+    width      : 60%;
+    text-align : left;
+    padding-right: 3%;
+}
+
+.bottomLeft .bottomLeftInfo {
+    width:      90%;
+    margin-top  : 5%;
+}
+
+.bottomRight .compInfoMid {
+    margin-top  : 10%; 
+}
+
+/* Footer Flexbox */
+
+
+.bottom {
+    display: flex;
+    flex-flow: row nowrap;    
+}
+
+
+@media screen and (max-width: 800px){
+
+    .bottom {
+        flex-direction: column;
+        height: 100%;
+        width: 60%;
+    }
+
+    .bottomLeft, .bottomRight * {
+        text-align : center;
+    }
+
+    .bottomRight {
+        width   : 95%;
+    }
+
+    .bottomLeft {
+        width   :95%;
+    }
+}

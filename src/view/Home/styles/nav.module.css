@@ -1,0 +1,66 @@
+/** ---------------------**/
+/** -----Navbar Home-----**/
+/** ---------------------**/
+
+.navbar {
+    display        : flex;
+    justify-content: space-around;
+    list-style     : none;
+    align-items    : center;
+}
+
+.navbar {
+    padding: 0px .8em;
+}
+
+.navbar li {
+    padding: 0px .1em;
+}
+
+.navbar li a span {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .navbar {
+        align-items          : center;
+        height               : 50px;
+        max-width            : 992px;
+        margin               : 0 auto;
+        display              : -webkit-box;
+        display              : -ms-flexbox;
+        display              : flex;
+        justify-content      : space-between;
+        align-items          : center;
+        -webkit-box-orient   : vertical;
+        -webkit-box-direction: normal;
+        list-style           : none;
+    }
+
+    .navbar li a span {
+        display        : inline;
+        color          : black;
+        text-decoration: none;
+        text-align     : center;
+        padding        : 0px 10px;
+        font-size      : 0.8em;
+        font-weight    : 600;
+    }
+}
+
+@media screen and (min-width: 920px) {}
+
+.navbar li a h1 {
+    display    : inline-block;
+    font-size  : 2em;
+    font-weight: 700;
+}
+
+.navbar li img {
+    display: inline-block;
+    height : 30px;
+}
+
+.navbar li a:hover {
+    color: #478ec7;
+}
